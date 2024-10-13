@@ -213,7 +213,7 @@ contract SimpleTokenSwap {
         ISwapRouter.ExactInputSingleParams memory params = ISwapRouter.ExactInputSingleParams({
             tokenIn: tokenIn,
             tokenOut: tokenOut,
-            fee: 3000, // Using a 0.3% fee tier
+            fee: 3000, // Using a 0.3% fee tier or less ?
             recipient: recipient,
             deadline: block.timestamp,
             amountIn: amountIn,
